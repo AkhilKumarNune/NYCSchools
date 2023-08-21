@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme._20230811AkhilNYCSchools" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/iconColor</item>
+        <item name="colorPrimaryDark">@color/iconColor</item>
+        <item name="colorAccent">@color/iconColor</item>
+    </style>
+
+    <style name="CustomDialogStyle" parent="Theme.Material3.Dark.Dialog">
+        <item name="android:windowBackground">@android:color/white</item>
+        <!-- Add more customizations if needed -->
+    </style>
+
+    <style name="Theme._20230811AkhilNYCSchools" parent="Base.Theme._20230811AkhilNYCSchools" />
+</resources>
